@@ -1,5 +1,11 @@
+import WelcomeMessage from "./components/WelcomeMessage";
+
 const App = () => {
-  return <section>Hello</section>;
+  return (
+    <div>
+      <WelcomeMessage />
+    </div>
+  );
 };
 
 export default App;
